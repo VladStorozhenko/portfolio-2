@@ -1,8 +1,3 @@
-/*
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -101,5 +96,16 @@
 			windowMargin: 10,
 			usePopupNav: true
 		});
+
+	// Smooth Scroll
+		SmoothScroll({ 
+		stepSize          : 120,
+		animationTime     : 600,    // [ms]
+		keyboardSupport   : true,   // option
+		arrowScroll       : 125,    // [px]
+		accelerationDelta : 50, 
+		accelerationMax   : 3,
+		pulseScale       : 4   
+	});
 
 })(jQuery);
